@@ -1,0 +1,9 @@
+number_of_sensors: 2 # currently only 2 is supported
+transform_sensor_1:
+  - [0.0, 10.0, 0.0, 2.259, 0.0, 1.938] #[roll, pitch, yaw, x, y z] initial LiDAR transform
+transform_sensor_2:
+  - [0.0, 10.0, 180.0, -0.3987347, 0.002735673, 2.098425312]
+min_bound:
+  - [10.0, -14.0, -5.0] #[x, y z] min global bounds for target
+max_bound:
+  - [20.0, -4.0, 5.0] #[x, y z] max global bounds for target
