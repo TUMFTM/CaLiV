@@ -12,7 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN mkdir -p data/sensor_1
 RUN mkdir -p data/sensor_2
 RUN mkdir -p output
-RUN chmod +x calib.sh
+COPY calib.sh /calib.sh
+RUN chmod +x /calib.sh
 EXPOSE 8000
 
 CMD ["/calib.sh"]
