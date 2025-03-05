@@ -106,7 +106,7 @@ def transform_pcds(loc_lidar_f, rot_lidar_f, loc_lidar_r, rot_lidar_r,
         ego_pose = data_storage["sensor_1"][i][1]
 
         t = np.asarray(ego_pose[:3])
-        quat = ego_pose[3:]docker run -v $(pwd)/output:/app/output -it  gmmcalib:latest
+        quat = ego_pose[3:]
         R = Rotation.from_quat(quat).as_matrix()
 
         T_ego = np.eye(4)
