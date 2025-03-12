@@ -1,5 +1,5 @@
 # CaLiV
-LiDARto-Vehicle Calibration of Arbitrary Sensor Setups via Object Reconstruction
+LiDAR-to-Vehicle Calibration of Arbitrary Sensor Setups via Object Reconstruction
 
 ## Prerequisites
 To begin, prepare the PCD files (in the sensor frame) for each sensor, following the example provided in the `/input` directory.  
