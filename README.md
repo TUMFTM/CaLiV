@@ -1,6 +1,8 @@
 # CaLiV
 LiDAR-to-Vehicle Calibration of Arbitrary Sensor Setups via Object Reconstruction
 
+![CaLiV Framework](doc/framework.png)
+
 ## Prerequisites
 To begin, prepare the PCD files (in the sensor frame) for each sensor, following the example provided in the `/input` directory.  
 The corresponding vehicle poses must be specified for each pcd in the `/input/ego_poses.yaml` file.  
